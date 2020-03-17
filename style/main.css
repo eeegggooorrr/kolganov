@@ -107,10 +107,12 @@ main > div.container {
     flex: 1 0 auto;
 }
 section {
-
+    flex: 3 0 auto;/*3 - это ширина столбца*/
+    padding: 0 15px;
 }
 aside {
-
+    flex: 1 0 auto;/*1 - это ширина столбца*/
+    padding: 0 15px
 }
 
 
