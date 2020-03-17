@@ -114,25 +114,28 @@ aside {
     flex: 1 0 auto;/*1 - это ширина столбца*/
     padding: 0 15px
 }
+main {
+ background-color: #e5e5e5;
 
+}
+main > div.container {
+ background-color: #fff;
+
+}
 
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
-}
-footer {
- background-color: #000;
-
- height: 200px;
+     background-color: #000;
+    height: 200px;
 
 }
 footer > div.container {
- height: 100%;
-
- padding: 10px 0;
+    height: 100%;
+    padding: 10px 0;
 
 }
 footer nav ul {
-margin-right: 30px;
+    margin-right: 30px;
 
 }
